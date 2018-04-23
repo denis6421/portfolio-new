@@ -1,0 +1,59 @@
+[{
+    "name": "Shoes Shop",
+    "explain": "Fully responsive shop, made with AngularJS, css3, HTML5, Ajax and Jquery.",
+    "monitor": "images/projects/monitor-shoes.png",
+    "phone": "images/projects/phone_shoes.png",
+    "link":"https://denis6421.github.io/shoes-shop/index.html"
+    },
+  {
+    "name": "Wizz Demo",
+    "explain": "Fully responsive page, made with css3, Html5, Jquery and Ajax.",
+    "monitor": "images/projects/monitor_wizz.png",
+    "phone": "images/projects/phone_wizz.png",
+    "link":"https://denis6421.github.io/wizz-demo/index.html"
+  },
+  {
+    "name": "Ticker App",
+    "explain": "Responsive ticker application made with Jquery, Json.",
+    "monitor": "images/projects/monitor_ticker.png",
+    "phone": "images/projects/phone_ticker.png",
+    "link":"https://denis6421.github.io/ticker/index.html"
+
+  },
+  {
+    "name": "Ford's Website Home page",
+    "explain": "Fully responsive, and dynamic, made with css3, Html5, Jquery and Ajax.",
+    "monitor": "images/projects/monitor_ford.png",
+    "phone": "images/projects/phone_ford.png",
+    "link":"https://denis6421.github.io/Ford/ford.html"
+  },
+  {
+    "name": "Phone shop",
+    "explain": "Beautiful and responsive made with AJAX, JSON, Jquery, css3, html5.",
+    "monitor": "images/projects/monitor-phone.jpg",
+    "phone": "images/projects/phone.png",
+    "link": "https://denis6421.github.io/phone-shop-demo/index.html"
+  },
+  {
+    "name": "My Fitness Club Website",
+    "explain": "Made with love for my club! The site is fully responsive,made with css3  Html5,  Jquery, Ajax and PHP.",
+    "monitor": "images/projects/monitor_club.png",
+    "phone": "images/projects/phone_fit.png",
+    "link":"https://denis6421.github.io/fitclub-new/fitclub.html"
+  },
+
+  {
+    "name": "Lyft's Sign Up Page",
+    "explain": "responsive, dynamic, made with css3, Html5 and js.",
+    "monitor": "images/projects/monitor-Lyft.png",
+    "phone": "images/projects/phone_lyft.png",
+    "link":"https://denis6421.github.io/Lyft-Demo/index.html"
+  },{
+    "name": "Apple's Website Home Page",
+    "explain": "Responsive web page, made with css3, Html5 and Jquery.",
+    "monitor": "images/projects/monitor-apple.png",
+    "phone": "images/projects/phone_apple.png",
+    "link":"https://denis6421.github.io/apple-demo/apple.html"
+  }
+
+]
