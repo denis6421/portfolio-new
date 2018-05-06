@@ -176,8 +176,14 @@ header {
 
 .text-wrapper button div {
   transition: 0.8s;
-}
+  width: 45px;
+  height: 45px;
 
+}
+.text-wrapper button div img{
+  width: 100%;
+  height: auto;
+}
 .text-wrapper button:hover div {
   transform: rotate(90deg);
   transition: 0.8s;
@@ -220,6 +226,7 @@ nav {
   width: auto;
   height: 60%;
   font-size: 22px;
+  font-weight: bold;
 }
 
 .nav_btns button:hover {

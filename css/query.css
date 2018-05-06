@@ -68,9 +68,15 @@
     right: 4vh;
   }
   .text-wrapper button{
-    width: 400px;
+    width: 420px;
     height: 100px;
     font-size: 30px;
+  }
+  .text-wrapper button div {
+    transition: 0.8s;
+    width: 30px;
+    height: 30px;
+
   }
 }
 @media screen and (max-width: 830px) {
@@ -160,7 +166,7 @@ main{
     width: 400px;
     height: 90px;
     font-size: 25px;
-    top: 340px;
+    top: 380px;
   }
   .my_name {
     width: 350px;
@@ -329,11 +335,6 @@ main{
   height: 290em;
 }
 
-
-  header{
-    height: 80vh;
-
-  }
 h1{
   font-size: 30px;
 }
@@ -359,6 +360,12 @@ h1{
     width: 300px;
     height: 80px;
     font-size: 22px;
+
+  }
+  .text-wrapper button div {
+    transition: 0.8s;
+    width: 25px;
+    height: 25px;
 
   }
 .skills_wrapper{
