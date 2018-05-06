@@ -300,7 +300,7 @@ margin-right: 2vh;
 .hidden_box {
   height: 100%;
   width: 100%;
-  z-index: 10;
+  z-index: 500;
   display: none;
   position: fixed;
   top: 75px;
@@ -311,6 +311,7 @@ margin-right: 2vh;
 
 .hidden_box .nav_btns {
   width: 100%;
+  z-index: 500;
 }
 
 .hidden_box .nav_btns button {

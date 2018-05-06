@@ -166,7 +166,7 @@ main{
     width: 400px;
     height: 90px;
     font-size: 25px;
-    top: 380px;
+    top: 300px;
   }
   .my_name {
     width: 350px;
@@ -239,7 +239,8 @@ main{
   height: 310em;
 }
 header{
-  background: url('../images/mobile-background.jpg')
+  background: url('../images/mobile-background.jpg');
+  height: 100vh;
 }
   .my_name .letters{
     text-align: left!important;
@@ -361,15 +362,15 @@ h1{
     width: 150px;
   }
   .my_name {
-    width: 250px;
+    width: 80%;
     height: 300px;
     top: 250px;
   }
   .letters{
-    font-size: 25px;
+    font-size: 22px;
   }
   .letters1{
-    font-size: 20px;
+    font-size: 17px;
   }
   .text-wrapper button{
     width: 300px;
