@@ -27,96 +27,95 @@ $(document).ready(function() {
 
   ///////////////////moving my name to top///////////////
   function show_name() {
-    if (scroll <= 100) {
-      $(".letters").css('opacity', '1');
-      setTimeout(function() {
-        $(".letters").animate({
-          'top': '10px'
 
-        }, 700);
-      }, 1500);
+    $(".letters").css('opacity', '1');
+    setTimeout(function() {
+      $(".letters").animate({
+        'top': '10px'
 
-      setTimeout(function() {
-        $(".letters1").animate({
-          'opacity': '1',
-          'top': '70px',
-        }, 700);
-      }, 1800);
+      }, 700);
+    }, 1500);
+
+    setTimeout(function() {
+      $(".letters1").animate({
+        'opacity': '1',
+        'top': '70px',
+      }, 700);
+    }, 1700);
 
 
-      setTimeout(function() {
-        $(".my_name").animate({
-          'height': '60px',
-          'width': '250px'
-        }, {
-          duration: 100
-        });
-      }, 3800);
-      setTimeout(function() {
-        $(".text-wrapper .letters").animate({
-          'left': '0px',
-          'top': '0px'
+    setTimeout(function() {
+      $(".text-wrapper .letters").animate({
+        'left': '0px',
+        'top': '0px'
 
-        }, {
-          duration: 100,
-          queue: false
-        });
-        $(".text-wrapper .letters1").animate({
-          'left': '0px',
-          'top': '30px'
-        }, {
-          duration: 100,
-          queue: false
-        });
+      }, {
+        duration: 100,
+        queue: false
+      });
+      $(".text-wrapper .letters1").animate({
+        'left': '0px',
+        'top': '30px'
+      }, {
+        duration: 100,
+        queue: false
+      });
 
-      }, 3100);
-      setTimeout(function() {
-        $(".text-wrapper button").animate({
-          'opacity': '1'
+    }, 3100);
 
-        }, 400);
-      }, 3300);
+    setTimeout(function() {
+      $(".my_name").animate({
+        'height': '60px',
+        'width': '250px'
+      }, {
+        duration: 100
+      });
+    }, 3300);
 
-    }
+
+
 
 
   }
+
+
+  ///////////////////////////////////////////////
+
 
 
 
   //////////////////////////////////////////
 
 
-  if (window.innerWidth >= 1600) {
+  if (window.innerWidth >= 1600 && scroll < 80) {
     myName = setTimeout(function() {
       $(".my_name").animate({
         'left': '32vh',
         'top': '20px'
 
       }, {
-        duration: 400
+        duration: 500
       });
-    }, 3000);
-    $(".my_name").css('position', 'fixed');
+      $(".my_name").css('position', 'fixed');
+    }, 3200);
+
     setTimeout(function() {
-        $(".text-wrapper .letters").animate({
-          'font-size': '25px'
-        }, {
-          duration: 300,
-          queue: false
-        });
+      $(".text-wrapper .letters").animate({
+        'font-size': '25px'
+      }, {
+        duration: 300,
+      });
 
-        $(".text-wrapper .letters1").animate({
-          'font-size': '20px',
+      $(".text-wrapper .letters1").animate({
+        'font-size': '20px',
 
-        }, {
-          duration: 300,
-          queue: false
-        });
-        $(".text-wrapper .letters1").css('font-weight', 'lighter');
-      }, 2700);
+      }, {
+        duration: 300,
+      });
+      $(".text-wrapper .letters1").css('font-weight', 'lighter');
+    }, 3200);
   }
-  if (window.innerWidth <= 1600) {
+  if (window.innerWidth <= 1600 && window.innerWidth > 900 && scroll < 80) {
     myName = setTimeout(function() {
       $(".my_name").animate({
         'left': '10vh',
@@ -127,64 +126,83 @@ $(document).ready(function() {
       });
       $(".my_name").css('position', 'fixed');
     }, 3000);
+
     setTimeout(function() {
-        $(".text-wrapper .letters").animate({
-          'font-size': '25px'
-        }, {
-          duration: 300,
-          queue: false
-        });
+      $(".text-wrapper .letters").animate({
+        'font-size': '25px'
+      }, {
+        duration: 300,
+        queue: false
+      });
 
-        $(".text-wrapper .letters1").animate({
-          'font-size': '20px',
+      $(".text-wrapper .letters1").animate({
+        'font-size': '20px',
 
-        }, {
-          duration: 300,
-          queue: false
-        });
-        $(".text-wrapper .letters1").css('font-weight', 'lighter');
-      }, 2700);
+      }, {
+        duration: 300,
+        queue: false
+      });
+      $(".text-wrapper .letters1").css('font-weight', 'lighter');
+    }, 3200);
   }
-  if (window.innerWidth <= 900) {
+  if (window.innerWidth <= 900 && window.innerWidth > 730 && scroll < 80) {
     myName = setTimeout(function() {
       $(".my_name").animate({
         'left': '4vh',
         'top': '20px'
 
       }, {
-        duration: 100
-      }, 3000);
+        duration: 500,
+        queue: false
+      });
       $(".my_name").css('position', 'fixed');
     }, 3000);
+    setTimeout(function() {
+      $(".text-wrapper .letters").animate({
+        'font-size': '25px'
+      }, {
+        duration: 300,
+        queue: false
+      });
 
+      $(".text-wrapper .letters1").animate({
+        'font-size': '20px',
+      }, {
+        duration: 300,
+        queue: false
+      });
+      $(".text-wrapper .letters1").css('font-weight', 'lighter');
+    }, 3200);
 
   }
-  if (window.innerWidth < 730) {
-    setTimeout(function() {
-        $(".text-wrapper .letters").animate({
-          'font-size': '22px'
-        }, {
-          duration: 300,
-          queue: false
-        });
-
-        $(".text-wrapper .letters1").animate({
-          'font-size': '17px',
-
-        }, {
-          duration: 300,
-          queue: false
-        });
-        $(".text-wrapper .letters1").css('font-weight', 'lighter');
-      }, 2700);
+  if (window.innerWidth <= 730 && scroll < 80) {
     myName = setTimeout(function() {
       $(".my_name").animate({
         'left': '2vh',
-        'top': '10px'
+        'top': '20px'
       }, {
-        duration: 100
+        duration: 500,
+        queue: false
       });
+      $(".my_name").css('position', 'fixed');
     }, 3000);
+    setTimeout(function() {
+      $(".text-wrapper .letters").animate({
+        'font-size': '22px'
+      }, {
+        duration: 300,
+        queue: false
+      });
+
+      $(".text-wrapper .letters1").animate({
+        'font-size': '17px',
+      }, {
+        duration: 300,
+        queue: false
+      });
+      $(".text-wrapper .letters1").css('font-weight', 'lighter');
+    }, 3200);
+
     setTimeout(function() {
       $('.letters').css('color', '#74C7D5')
       $('.letters1').css('color', '#74C7D5')
@@ -198,43 +216,43 @@ $(document).ready(function() {
     $('.nav_btns').css('opacity', '1');
 
 
-
-
-    if (scroll <= 100) {
+    if (scroll <= 80) {
       show_name()
+
+      setTimeout(function() {
+        $(".text-wrapper button").animate({
+          'opacity': '1'
+
+        }, 400);
+      }, 3300);
+
     }
-    if (scroll > 100) {
+    if (scroll > 80) {
 
       $(".my_name").addClass('scrolled');
       $('.letters').addClass('letters_scrolled');
       $('.letters1').addClass('letters1_scrolled');
-      $(".my_name").animate({
-        'top': '10px'
-      }, {
-        duration: 50
-      });
-
-      $(".text-wrapper button").animate({
-        'opacity': '1'
 
 
-      }, 200);
+      setTimeout(function() {
+        $(".text-wrapper button").animate({
+          'opacity': '1'
+
+        }, 400);
+      }, 1000);
+
 
 
     }
-    if (scroll > 100 && window.innerWidth < 730) {
-      clearTimeout(myName);
+    if (scroll > 80 && window.innerWidth < 730) {
+
 
       $(".my_name").addClass('scrolled_mobile');
       $('.letters').addClass('letters_scrolled');
       $('.letters1').addClass('letters1_scrolled');
       $('.letters').css('color', '#74C7D5');
       $('.letters1').css('color', '#74C7D5');
-      $(".my_name").css({
-          'height': '60px',
-          'width': '250px',
-          'left':'2vh'
-        })
+
 
       $(".text-wrapper button").animate({
         'opacity': '1'
@@ -248,39 +266,24 @@ $(document).ready(function() {
   /////////////////////move my name when resize/////////////////////
   $(document).ready(function() {
 
-
     window.onresize = function() {
       if (window.innerWidth >= 1600) {
         $('.my_name').css('left', '32vh');
       }
-      if (window.innerWidth <= 1600) {
+      if (window.innerWidth <= 1600 && window.innerWidth > 900) {
         $('.my_name').css('left', '10vh');
       }
-      if (window.innerWidth <= 900) {
+      if (window.innerWidth <= 900 && window.innerWidth > 600) {
         $('.my_name').css('left', '4vh');
       }
-      if (window.innerWidth >= 600) {
-        setTimeout(function() {
 
-          $('.letters').animate({
-            'font-size': '25px',
-
-          }, 100);
-          $('.letters1').animate({
-            'font-size': '20px',
-
-          }, 100);
-
-        }, 300);
-
-      }
-      if (window.innerWidth > 730 && scroll > 100) {
+      if (window.innerWidth > 730 && scroll > 80) {
         $('.letters').css('color', '#74C7D5')
         $('.letters1').css('color', '#74C7D5')
         $('.nav_btns button').css('color', '#74C7D5')
 
       }
-      if (window.innerWidth > 730 && scroll < 100) {
+      if (window.innerWidth > 730 && scroll < 80) {
         $('nav').css({
           'background': 'transparent',
           'height': '100px'
@@ -299,7 +302,14 @@ $(document).ready(function() {
           'height': '75px'
         });
       }
-
+      if (window.innerWidth >= 600) {
+        $('.letters').animate({
+          'font-size': '25px',
+        }, 100);
+        $('.letters1').animate({
+          'font-size': '20px',
+        }, 100);
+      }
       if (window.innerWidth > 600) {
 
         $(".text-wrapper button").animate({
@@ -310,10 +320,7 @@ $(document).ready(function() {
 
       }
       if (window.innerWidth < 600) {
-        setTimeout(function() {
-
-
-          $('.letters').animate({
+        $('.letters').animate({
             'font-size': '22px',
 
           }, 100);
@@ -321,9 +328,7 @@ $(document).ready(function() {
             'font-size': '17px',
 
           }, 100);
-
-        }, 500);
-      }
+  }
     }
 
   })
@@ -371,24 +376,20 @@ $(' #about').on('click', function(event) {
   $('html, body').animate({
     scrollTop: $(".about_wrapper").offset().top
   }, 600);
-  if (window.innerWidth < 730) {
-  }
+
 
 });
 $(' #portfolio').on('click', function(event) {
   $('html, body').animate({
     scrollTop: $("main").offset().top
   }, 600);
-  if (window.innerWidth < 730) {
-  }
+  if (window.innerWidth < 730) {}
 });
 $(' #contact').on('click', function(event) {
   $('html, body').animate({
     scrollTop: $("footer").offset().top
   }, 600);
-  if (window.innerWidth < 730) {
 
-  }
 });
 $('.go_up').on('click', function(event) {
   $('html, body').animate({
@@ -414,9 +415,9 @@ $("#nav-icon").click(function() {
   $(".letters1").css('transition', '0s');
 
 })
-$('.hidden_box .nav_btns').click(function(){
-    $('#nav-icon').removeClass('open');
-      $(".hidden_box").slideToggle();
+$('.hidden_box .nav_btns button').click(function() {
+  $('#nav-icon').removeClass('open');
+  $(".hidden_box").slideToggle();
 })
 
 //////////////border ynder selected nav btn//////////////
@@ -449,7 +450,7 @@ $(window).on('scroll', function() {
     $('.my_name').css('top', '10px');
     $('.text-wrapper div:first-child').css('top', '10px');
     $(".nav_btns button").css("color", "#74C7D5");
-    $(".hamburger_mobile div").css('background', '#74C7D5')
+
   }
 
   if (scroll <= 50 && window.innerWidth > 730) {
@@ -459,7 +460,7 @@ $(window).on('scroll', function() {
     $('.my_name').css('top', '20px');
     $('.text-wrapper div:first-child').css('top', '20px');
     $(".nav_btns button").css("color", "white");
-    $(".hamburger_mobile div").css('background', 'white')
+
   }
 
 

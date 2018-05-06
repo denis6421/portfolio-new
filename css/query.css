@@ -61,8 +61,21 @@
   	  }
 }
 @media screen and (max-width: 900px){
+  .letters{
+    font-size: 40px
+  }
+  .letters1{
+    font-size: 25px;
+  }
 .scrolled{
   left: 4vh;
+}
+.letters_scrolled {
+  font-size: 25px;
+}
+
+.letters1_scrolled {
+  font-size: 20px;
 }
   .nav_btns{
     right: 4vh;
@@ -168,11 +181,10 @@ main{
     font-size: 25px;
     top: 300px;
   }
-  .my_name {
-    width: 350px;
-    height: 400px;
-    top: 300px;
-  }
+.my_name{
+  width: 350px;
+  height: 300px;
+}
 .letters1{
 font-size:20px;
 }
@@ -250,6 +262,9 @@ header{
     height: 90px;
     font-size: 25px;
 
+  }
+  .scrolled{
+    left: 2vh;
   }
   .about_wrapper{
     height:1100px;
@@ -362,9 +377,12 @@ h1{
     width: 150px;
   }
   .my_name {
-    width: 80%;
-    height: 300px;
-    top: 250px;
+
+    top: 300px;
+  }
+  .scrolled_mobile {
+
+  top: 10px;
   }
   .letters{
     font-size: 22px;
