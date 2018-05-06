@@ -173,7 +173,20 @@ main{
     height: 400px;
     top: 300px;
   }
+.letters1{
+font-size:20px;
+}
+.letters{
+  font-size: 35px;
 
+}
+.letters_scrolled {
+  font-size: 22px;
+}
+
+.letters1_scrolled {
+  font-size: 17px;
+}
   .header_wrapper{
     width: 100%;
     padding-top: 190px;
@@ -225,7 +238,9 @@ footer h3{
 main{
   height: 310em;
 }
-
+header{
+  background: url('../images/mobile-background.jpg')
+}
   .my_name .letters{
     text-align: left!important;
   }

@@ -43,23 +43,7 @@ $(document).ready(function() {
         }, 700);
       }, 1800);
 
-      setTimeout(function() {
-        $(".text-wrapper .letters").animate({
-          'font-size': '25px'
-        }, {
-          duration: 300,
-          queue: false
-        });
 
-        $(".text-wrapper .letters1").animate({
-          'font-size': '20px',
-
-        }, {
-          duration: 300,
-          queue: false
-        });
-        $(".text-wrapper .letters1").css('font-weight', 'lighter');
-      }, 2700);
       setTimeout(function() {
         $(".my_name").animate({
           'height': '60px',
@@ -114,7 +98,23 @@ $(document).ready(function() {
       });
     }, 3000);
     $(".my_name").css('position', 'fixed');
+    setTimeout(function() {
+        $(".text-wrapper .letters").animate({
+          'font-size': '25px'
+        }, {
+          duration: 300,
+          queue: false
+        });
 
+        $(".text-wrapper .letters1").animate({
+          'font-size': '20px',
+
+        }, {
+          duration: 300,
+          queue: false
+        });
+        $(".text-wrapper .letters1").css('font-weight', 'lighter');
+      }, 2700);
   }
   if (window.innerWidth <= 1600) {
     myName = setTimeout(function() {
@@ -127,7 +127,23 @@ $(document).ready(function() {
       });
       $(".my_name").css('position', 'fixed');
     }, 3000);
+    setTimeout(function() {
+        $(".text-wrapper .letters").animate({
+          'font-size': '25px'
+        }, {
+          duration: 300,
+          queue: false
+        });
 
+        $(".text-wrapper .letters1").animate({
+          'font-size': '20px',
+
+        }, {
+          duration: 300,
+          queue: false
+        });
+        $(".text-wrapper .letters1").css('font-weight', 'lighter');
+      }, 2700);
   }
   if (window.innerWidth <= 900) {
     myName = setTimeout(function() {
@@ -144,16 +160,23 @@ $(document).ready(function() {
 
   }
   if (window.innerWidth < 730) {
-    $('.letters').animate({
-      'font-size': '22px',
+    setTimeout(function() {
+        $(".text-wrapper .letters").animate({
+          'font-size': '22px'
+        }, {
+          duration: 300,
+          queue: false
+        });
 
-    }, 300);
-    $(".text-wrapper .letters1").animate({
-      'font-size': '17px',
-    }, {
-      duration: 300,
-      queue: false
-    });
+        $(".text-wrapper .letters1").animate({
+          'font-size': '17px',
+
+        }, {
+          duration: 300,
+          queue: false
+        });
+        $(".text-wrapper .letters1").css('font-weight', 'lighter');
+      }, 2700);
     myName = setTimeout(function() {
       $(".my_name").animate({
         'left': '2vh',
