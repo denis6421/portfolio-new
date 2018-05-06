@@ -180,11 +180,18 @@ main{
     background: white;
     height: 75px;
   }
+  header{
+    background: url('../images/mobile-background.jpeg');
+    background-position:42% 58%;
+    background-repeat: no-repeat;
+    height: 100vh;
+  background-size: cover;
+    }
   .text-wrapper button{
     width: 400px;
     height: 90px;
     font-size: 25px;
-    top: 300px;
+    top: 40vh;
   }
 .my_name{
   width: 350px;
@@ -255,10 +262,9 @@ footer h3{
 main{
   height: 310em;
 }
-header{
-  background: url('../images/mobile-background.jpg');
-  height: 100vh;
-}
+
+
+
   .my_name .letters{
     text-align: left!important;
   }
@@ -378,16 +384,13 @@ h1{
     width: 100%;
     display: flex;
   }
-header{
-  background: url('../images/mobile-background.jpeg');
-  background-position:40% 60%;
-}
+
   .header_wrapper .button_box a {
     width: 150px;
   }
   .my_name {
 
-    top: 300px;
+    top: 38vh;
   }
   .scrolled_mobile {
 

@@ -86,7 +86,7 @@ header {
   width: 500px;
   height: 600px;
   position: absolute;
-  top: 300px;
+  top: 35vh;
   color: white;
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ header {
   width: 600px;
   height: 120px;
   cursor: pointer;
-  transition: transform 0.8s;
+
   color: #74C7D5;
   font-size: 40px;
   font-weight: 800;
@@ -172,7 +172,7 @@ header {
   justify-content: space-around;
   align-items: center;
   position: absolute;
-  top: 440px;
+  top: 35vh;
   opacity: 0;
   transition: opacity 1s;
   outline: none;
