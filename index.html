@@ -3,58 +3,52 @@
 
 <head>
   <meta charset="utf-8">
-  <title>My portfolio</title>
+  <title>Denis Nikitin</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/query.css">
-  <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link async rel="stylesheet" href="css/main.css">
+  <link async rel="stylesheet" href="css/query.css">
+  <link async href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+  <link async href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+
 </head>
 
 <body>
   <header>
-    <div class="header_wrapper">
+
 
         <div class="text-wrapper">
-          <p class="letters">Hello, I'm Denis Nikitin</p>
-          <p class="letters1">Self Motivated Web Developer</p>
+          <div class="my_name">
+            <p class="letters">DENIS NIKITIN</p>
+            <p class="letters1">Front-End Web Developer</p>
+          </div>
+          <button><span>VIEW MY PROJECTS</span><div>🡪</div></button>
+  </div>
 
-
-          <button><span>View my work</span><div>🡪</div></button>
-
-    </div>
-    </div>
 
 
   </header>
   <nav>
 
-      <span class="nav_btns">
-    <button id="home">Home</button>
-    <button id="about">About</button>
-    <button id="portfolio">Portfolio</button>
-    <button id="contact">Contact</button>
-    </span>
-      <span id="social_links">
-    <a href="#"><img src="images/facebook.png"/></a>
-    <a href="#"><img src="images/linkedin.png"/></a>
-    <a href="#"><img src="images/github.png"/></a>
-    </span>
-
-    <div class="hamburger_mobile">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+    <span class="nav_btns">
+  <button id="home">Home</button>
+  <button id="about">About</button>
+  <button id="portfolio">Portfolio</button>
+  <button id="contact">Contact</button>
+  </span>
+  <div id="nav-icon">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+</div>
 
   </nav>
   <div class="hidden_box" >
     <span class="nav_btns">
-  <button id="home" data-aos="fade-right">Home</button>
-  <button id="about" data-aos="fade-right">About</button>
+  <button id="home" >Home</button>
+  <button id="about" >About</button>
   <button id="portfolio">Portfolio</button>
   <button id="contact">Contact</button>
   </span>
@@ -62,59 +56,77 @@
   <div class="about_wrapper">
 
     <div class="about_header">
-      <h1 data-aos="fade-right">About</h1>
+      <h1 data-aos="zoom-in" data-aos-duration="1000">About</h1>
       <div class="animation_border" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="1000" data-aos-duration="1000"></div>
     </div>
+      <p id="about_text">I'm a Web Front-End Developer ,I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. </p>
     <div class="about_badge_con">
       <div class="badge_wrapper">
-        <div><img src="images/responsive.svg" /></div>
-        <h3>Responsive</h3>
-        <p>My layouts will work on any device, big or small.</p>
+        <div  data-aos="fade-up"  data-aos-duration="700"><img src="images/responsive.svg" /></div>
+        <h3 data-aos="zoom-in">Responsive</h3>
+        <p data-aos="zoom-in">My layouts will work on any device, big or small.</p>
       </div>
       <div class="badge_wrapper">
-        <div><img src="images/speedometer.svg" /></div>
-        <h3>Fast</h3>
-        <p>Fast load times and lag free interaction, my highest priority.</p>
+        <div data-aos="fade-up"  data-aos-duration="700"><img src="images/speedometer.svg" /></div>
+        <h3 data-aos="zoom-in">Fast</h3>
+        <p data-aos="zoom-in">Fast load times and lag free interaction, my highest priority.</p>
       </div>
       <div class="badge_wrapper">
-        <div><img src="images/rocket.svg" /></div>
-        <h3>Dynamic</h3>
-        <p>Websites don't have to be static, I love making pages come to life.</p>
+        <div data-aos="fade-up"  data-aos-duration="700"><img src="images/rocket.svg" /></div>
+        <h3 data-aos="zoom-in">Dynamic</h3>
+        <p data-aos="zoom-in">Websites don't have to be static, I love making pages come to life.</p>
       </div>
     </div>
-    <p id="about_text">I'm a Web Front-End Developer ,I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences. </p>
+
   </div>
   <div class="skills_wrapper" id='bottom'>
-    <h2 class="content_header_text" data-aos="fade-right">My Skills</h2>
-    <div class="animation_border" data-aos="fade-left" data-aos="fade-left"></div>
+    <h1 class="content_header_text" data-aos="zoom-in" data-aos-duration="1000">MY SKILLS</h1>
+    <div class="animation_border_skills" data-aos="fade-left" data-aos="fade-left"></div>
     <div class="skills">
 
-      <div data-aos="zoom-out-right">HTML5</div>
-      <div data-aos="zoom-out-right">CSS3</div>
-      <div data-aos="zoom-out-right">JS</div>
-      <div data-aos="zoom-out">Jquery</div>
-      <div data-aos="zoom-out-left">SQL</div>
-      <div data-aos="zoom-out-left">PHP</div>
-      <div data-aos="zoom-out-left">AngularJS</div>
+      <div data-aos="zoom-out-right"><img src="images/skills/html_logo.svg"/></div>
+      <div data-aos="zoom-out-right"><img src="images/skills/css_logo.svg"/></div>
+      <div data-aos="fade-up" data-aos-duration="1000"><img src="images/skills/js_logo.svg"/></div>
+      <div data-aos="zoom-out-left"><img src="images/skills/angular_logo.svg"/></div>
+      <div data-aos="fade-up-right"><img src="images/skills/jquery_logo.gif"/></div>
+      <div data-aos="fade-up-right"><img src="images/skills/sql_logo.svg"/></div>
+      <div data-aos="fade-up-left"><img src="images/skills/php_logo.svg"/></div>
+      <div data-aos="fade-up-left"><img src="images/skills/bootstrap_logo.svg"/></div>
 
     </div>
   </div>
   <main>
-    <h2 class="content_header_text">My Projects</h2>
+    <h1 class="content_header_text" data-aos="zoom-in" data-aos-duration="1000">MY PROJECTS</h1>
 
 
   </main>
 
 
+<footer>
+  <div class="contact_header" data-aos="zoom-in" data-aos-duration="1000">
+    <h1 >KEEP IN TOUCH WITH ME</h1>
+    <div class="animation_border_contact" ></div>
+  </div>
+  <span id="social_links">
+      <a href="#" data-aos="fade-right"><img src="images/facebook.svg"/></a>
+      <a href="#" data-aos="fade-down"><img src="images/linkedin.svg"/></a>
+      <a href="#" data-aos="fade-left"><img src="images/github.svg"/></a>
+      </span>
+<span>
+    <h3>Phone Number: </h3>
+    <h3>054-7602743</h3>
+</span>
+<span>
+  <h3>Email: </h3>
+  <h3>denis.b651@gmail.com</h3>
+</span>
 
+<button class='go_up'><img src="images/arrow-up.svg"/></button>
+</footer>
+  <script  type="text/javascript" src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script defer type="text/javascript" src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
 
-  <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
-
-  <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-  <script src="js/main.js" charset="utf-8"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-
-
+<script defer type="text/javascript" src="js/main.js" charset="utf-8"></script>
 </body>
 
 </html>

@@ -1,4 +1,11 @@
 [{
+    "name": "Tesla demo site",
+    "explain": "Responsive website, made with Jquery, css3, HTML5, Ajax and JS.",
+    "monitor": "images/projects/monitor-tesla.png",
+    "phone": "images/projects/phone-tesla.png",
+    "link":"https://denis6421.github.io/Tesla-demo/"
+    },
+  {
     "name": "Shoes Shop",
     "explain": "Fully responsive shop, made with AngularJS, css3, HTML5, Ajax and Jquery.",
     "monitor": "images/projects/monitor-shoes.png",
