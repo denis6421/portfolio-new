@@ -67,7 +67,7 @@ header {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-
+  overflow: hidden;
 }
 
 .text-wrapper {
@@ -120,7 +120,7 @@ header {
 .scrolled {
   position: fixed;
   top: 10px;
-  left: 32vh;
+
   width: 250px;
   height: 60px;
   justify-content: space-between;
@@ -265,6 +265,7 @@ margin-right: 2vh;
   left: 0;
   transform: rotate(0deg);
   transition: .25s ease-in-out;
+  z-index: 500;
 }
 
 #nav-icon span:nth-child(1) {
@@ -310,7 +311,7 @@ margin-right: 2vh;
   top: 75px;
   left: 0px;
   background: white;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .hidden_box .nav_btns {

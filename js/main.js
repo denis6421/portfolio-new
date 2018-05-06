@@ -230,7 +230,7 @@ $(document).ready(function() {
     if (scroll > 80) {
 
       $(".my_name").addClass('scrolled');
-      $('.letters').addClass('letters_scrolled');
+        $('.letters').addClass('letters_scrolled');
       $('.letters1').addClass('letters1_scrolled');
 
 
@@ -291,6 +291,7 @@ $(document).ready(function() {
         $('.letters').css('color', 'white')
         $('.letters1').css('color', 'white')
         $('.nav_btns button').css('color', 'white')
+
       }
 
       if (window.innerWidth < 730) {
@@ -301,6 +302,7 @@ $(document).ready(function() {
           'background': 'white',
           'height': '75px'
         });
+          $('.my_name').css('left', '2vh');
       }
       if (window.innerWidth >= 600) {
         $('.letters').animate({

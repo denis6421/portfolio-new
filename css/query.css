@@ -1,3 +1,8 @@
+@media screen and (min-width: 1600px){
+  .scrolled{
+    left: 32vh;
+  }
+}
 @media screen and (max-width: 1600px){
 .scrolled{
   left:10vh;
@@ -373,6 +378,10 @@ h1{
     width: 100%;
     display: flex;
   }
+header{
+  background: url('../images/mobile-background.jpeg');
+  background-position:40% 60%;
+}
   .header_wrapper .button_box a {
     width: 150px;
   }
@@ -385,10 +394,10 @@ h1{
   top: 10px;
   }
   .letters{
-    font-size: 22px;
+    font-size: 25px;
   }
   .letters1{
-    font-size: 17px;
+    font-size: 20px;
   }
   .text-wrapper button{
     width: 300px;
